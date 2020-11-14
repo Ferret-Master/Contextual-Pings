@@ -8,7 +8,8 @@
     "build": "115013",
     "date": "2020-11-14",
     "signature": "not yet implemented",
-    
+    "forum": "",
+    "icon": "https://github.com/ferret-Master/Contextual-Pings/blob/Release/icon.png?raw=true",
     "priority": 100,
     
     "scenes": {
@@ -44,9 +45,9 @@
     ],
     "dependencies": [
         "com.pa.raevn.rfloatframe"
-        ],
+        ]
    
-    "icon": ""
+   
    
    
 }
