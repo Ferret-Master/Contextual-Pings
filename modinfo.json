@@ -1,0 +1,52 @@
+{
+    "context": "server",
+    "identifier": "com.pa.ferretmaster.contextual-pings",
+    "display_name": "Contextual Pings",
+    "description": "adds various new ping options with animated models",
+    "author": "Ferretmaster",
+    "version": "1.0",
+    "build": "115013",
+    "date": "2020-11-14",
+    "signature": "not yet implemented",
+    
+    "priority": 100,
+    
+    "scenes": {
+		"live_game": [
+            "coui://ui/mods/contextualPings/pings.js",
+            "coui://ui/mods/contextualPings/spawnPings.js"
+        ],
+        "new_game": [
+            "coui://ui/mods/contextualPings/lobbyMessage.js"
+        ],
+        "LiveGame_FloatZone": [
+            "coui://ui/mods/contextualPings/floatZoneIcons.css",
+            "coui://ui/mods/contextualPings/floatZoneIcons.js"
+        ],
+        "live_game_chat": [
+            "coui://ui/mods/contextualPings/new.js",
+            "coui://ui/mods/contextualPings/main.js",
+            "coui://ui/mods/contextualPings/handlers.js"
+            
+        ],
+        "live_game_options_bar": [
+            "coui://ui/mods/contextualPings/pingOptionsBar.js"
+        ],
+        "live_game_unit_alert": [
+            "coui://ui/mods/contextualPings/triggerAlert.js"
+        ]
+        
+        
+    },
+    "category": [
+        "ui","titans", "in-game","server"
+        
+    ],
+    "dependencies": [
+        "com.pa.raevn.rfloatframe"
+        ],
+   
+    "icon": ""
+   
+   
+}

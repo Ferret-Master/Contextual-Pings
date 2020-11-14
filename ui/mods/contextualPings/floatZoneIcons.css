@@ -1,0 +1,27 @@
+.hide-for-cast  #data_util_frame {
+	display: none;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .column {
+	float: left;
+ 	width: 33.33%;
+  }
+  
+.ping_lock_icon {
+	height: 20px;
+	position: absolute;
+	left: 100px;
+	bottom: 1px;
+}
+
+/* .div_ping_bar {	
+	background: url('coui://ui/mods/contextualPings/background.png') top center no-repeat;
+	width: 100px;
+	height: 100px;
+} */
