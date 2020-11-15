@@ -129,7 +129,7 @@
                 
             
                 var timeSinceLastPing = (currentTime-pingtime)
-                if (map[79] && map[80] & timeSinceLastPing > 2 & spamCheck.pingsCount<8) {
+                if (map[18] && map[80] & timeSinceLastPing > 2 & spamCheck.pingsCount<8) {
                    contextual_ping();
                    spamCheck.pingsCount+=1;
                    pingtime = new Date().getTime()/1000;
