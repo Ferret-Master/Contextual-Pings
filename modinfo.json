@@ -1,6 +1,6 @@
 {
     "context": "server",
-    "identifier": "com.pa.ferretmaster.contextual-pings-dev",
+    "identifier": "com.pa.ferretmaster.contextual-pings",
     "display_name": "Contextual Pings",
     "description": "adds various new ping options with animated models",
     "author": "Ferretmaster",
