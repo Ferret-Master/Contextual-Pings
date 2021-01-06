@@ -51,10 +51,10 @@
 
 model.pingLockEvent = function() {
 	if (localStorage["frames_ping_icon_frame_lockStatus"] == "true") {
-		$("#ping_info_lock").attr("src", "coui://ui/mods/ArmyUtil/floatzone/unlock-icon.png");
+		$("#ping_info_lock").attr("src", "coui://ui/mods/contextualPings/icons/unlock-icon.png");
 		unlockFrame("ping_icon_frame");
 	} else  {
-		$("#ping_info_lock").attr("src", "coui://ui/mods/ArmyUtil/floatzone/lock-icon.png");
+		$("#ping_info_lock").attr("src", "coui://ui/mods/contextualPings/icons/lock-icon.png");
 		lockFrame("ping_icon_frame");
 	}
 };
