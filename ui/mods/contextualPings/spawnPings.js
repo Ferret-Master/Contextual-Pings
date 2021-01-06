@@ -3,17 +3,10 @@ function createPuppet(puppetName, location,animation,effectsType,color,pingDurat
 
 	
 	color.push(0.98)
-		puppetName+=".json";
+		
 		var chosenUnit;
+		chosenUnit = "/pa/units/land/"+puppetName+"/"+puppetName+".json";
 		var config = [{}];
-		unitKeys = _.keys(model.unitSpecs);
-		for(var i = 0;i<unitKeys.length;i++){
-			
-			if(unitKeys[i].endsWith(puppetName)){
-				chosenUnit = unitKeys[i];
-			}
-		}
-		if(!chosenUnit.length>1){return}
 		$.getJSON("coui://"+chosenUnit).then(function(data){
 			
 			unitJSON = data;
